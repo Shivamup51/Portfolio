@@ -21,5 +21,12 @@ Day/Night Mode Toggle: Users can toggle between light and dark modes using a sun
 <h5>JavaScript:</h5> For implementing interactive features such as hover effects and mode toggling.
 <h5>TypeScript:</h5> For enhancing the maintainability and scalability of the codebase through type checking and static analysis.
 
+![Screenshot 2024-04-21 002554](https://github.com/Shivamup51/Portfolio/assets/166123727/af458366-e653-4191-932b-cabf8875cdec)
+![Screenshot 2024-04-21 002624](https://github.com/Shivamup51/Portfolio/assets/166123727/34986ccc-3838-4be0-8b15-9e289f67567f)
+<img width="958" alt="port2" src="https://github.com/Shivamup51/Portfolio/assets/166123727/ee7e7dc4-948b-43f6-8be1-0ff750595bb4">
+![Screenshot 2024-04-21 002733](https://github.com/Shivamup51/Portfolio/assets/166123727/2e1626ad-f9f0-4f47-ba95-68dd9e65dc6d)
+
+
+
 
 
