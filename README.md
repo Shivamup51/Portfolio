@@ -9,11 +9,16 @@ I designed and developed a personal portfolio website using HTML, CSS, JavaScrip
 
 Key Features:
 
-Responsive Design: The website is designed to be responsive, ensuring optimal viewing experience across various devices and screen sizes.<br>
-Hover Effects: I implemented hover effects to enhance user interaction and provide visual feedback when hovering over interactive elements such as buttons or project thumbnails.<br>
-Navigation Links: The website includes navigation links to various sections such as About Me, Projects, Contact, etc. These links are implemented using HTML <a> tags and are linked to relevant external platforms such as LinkedIn, GitHub, LeetCode, and HackerRank.<br>
-Transition Effects: To improve the overall user experience, I incorporated transition effects to smoothly animate text elements. These transitions occur every 5 seconds, adding a subtle yet engaging dynamic to the website.<br>
-Day/Night Mode Toggle: Users can toggle between light and dark modes using a sun and moon button respectively. This feature enhances accessibility and allows users to customize their viewing experience based on their preferences.<br>
+Responsive Design: The website is designed to be responsive, ensuring optimal viewing experience across various devices and screen sizes.
+</br>
+Hover Effects: I implemented hover effects to enhance user interaction and provide visual feedback when hovering over interactive elements such as buttons or project thumbnails.
+</br>
+Navigation Links: The website includes navigation links to various sections such as About Me, Projects, Contact, etc. These links are implemented using HTML <a> tags and are linked to relevant external platforms such as LinkedIn, GitHub, LeetCode, and HackerRank.
+<br>
+Transition Effects: To improve the overall user experience, I incorporated transition effects to smoothly animate text elements. These transitions occur every 5 seconds, adding a subtle yet engaging dynamic to the website.
+<br>
+Day/Night Mode Toggle: Users can toggle between light and dark modes using a sun and moon button respectively. This feature enhances accessibility and allows users to customize their viewing experience based on their preferences.
+<br>
 <h4>Technologies Used:</h4>
 
 <h5>HTML:</h5> For creating the structure and content of the web pages.
