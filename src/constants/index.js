@@ -1,3 +1,4 @@
+
 import project1 from "../assets/projects/Project-1.png";
 import project2 from "../assets/projects/Project-2.png";
 import project3 from "../assets/projects/Project-3.png";
@@ -10,7 +11,7 @@ export const ABOUT_TEXT = `I am a  full stack developer with a passion for creat
 
 export const INTERNSHIP = [
   {
-    year: "2024 - Present",
+    year: "Aug-2024 - Sept-2024",
     role: "Full Stack Developer",
     company: "Null Class",
     description: ` Developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
@@ -27,32 +28,32 @@ export const PROJECTS = [
     description:
       "Developed a web application from scratch that generates unique images based on user text input, featuring an intuitive UI, real-time image creation, and scalable architecture.",
     link:"https://github.com/Shivamup51/Image/tree/my-new-branch",
-    technologies: ["React.js", "Tailwindcss", "Bootstrap"],
+    technologies: ["React.js", "Tailwindcss", "Bootstrap","OpenAI"],
   },
 
   {
-    title: "Photoshop-Website",
+    title: "E-Learning website",
     image: project1,
     description:
-      "I Spearheaded the creation of a dynamic Photoshop website from scratch leveraging HTML, CSS, and JavaScript.",
-    link:"https://github.com/Shivamup51/PHOTOSHOP-WEBSITE",
-    technologies: ["HTML", "CSS", "javascript"],
+      "I Spearheaded the creation of a dynamic E-Learning website from scratch leveraging React.js + vite , tailwindCss",
+    link:"https://github.com/Shivamup51/E-Learning",
+    technologies: ["React.js", "Tailwindcss", "javascript"],
   },
   {
-    title: "Weather-App",
+    title: "PhotoShop",
     image: project2,
     description:
-      "Built a React.js weather app from Scratch that provides real-time weather updates, displays the current temperature and location, and changes the background image based on the temperature",
-    link:"https://github.com/Shivamup51/Weather-App",
-    technologies: ["React", "tailwindcss", "javacript"],
+      "I Spearheaded the creation of a dynamic PhotoShop-website from scratch leveraging Html,Css, Javascript",
+    link:"https://github.com/Shivamup51/PHOTOSHOP-WEBSITE",
+    technologies: ["Html", "Css", "javacript"],
   },
   {
-    title: "Portfolio Website",
+    title: "News-App",
     image: project3,
     description:
-      "A personal portfolio website showcasing Internship, projects, skills, and contact information.",
-    link:"",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Stay updated with the latest headlines, breaking news, and top stories from around the world, all in one place.",
+    link:"https://github.com/Shivamup51/News-app",
+    technologies: ["React", "TailwindCss","Javascript","News_API"],
   },
 
 ];
