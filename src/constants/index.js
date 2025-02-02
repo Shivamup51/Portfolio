@@ -63,7 +63,7 @@ export const PROJECTS = [
 export const CONTACT = {
   title: "Contact",
   subtitle: "Feel free to reach out to me for any questions or opportunities!",
-  address: "RKGIT College, Ghaziabad, U.P, 201003",
+  address: "Huaz Khas, New Delhi, 110016",
   phoneNo: "+91 7297977115",
   email: "shivamupadhyay2868@gmail.com"
 };
