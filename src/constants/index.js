@@ -1,65 +1,69 @@
-
 import project1 from "../assets/projects/Project-1.png";
 import project2 from "../assets/projects/Project-2.png";
 import project3 from "../assets/projects/Project-3.png";
 import project4 from "../assets/projects/Project-4.png";
 
+export const HERO_CONTENT = `I am a Full Stack Developer with expertise in React, Node.js, Express.js, MongoDB, TailwindCSS, and more. With over a year of experience, I specialize in building scalable, high-performance web applications. My goal is to create innovative solutions that enhance user experiences, drive business growth, and solve complex problems.`;
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1-year of hands-on experience, I have honed my skills in front-end technologies like React and TailwindCss, as well as back-end technologies like Node.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
-
-export const ABOUT_TEXT = `I am a  full stack developer with a passion for creating efficient and user-friendly web applications.I have worked with a variety of technologies, including Html, Css, tailwindcss, React, Node.js, Express.j, MySQL,and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a Full Stack Developer with expertise in HTML, CSS, TailwindCSS, React, Node.js, Express.js, MySQL, MongoDB, Redux, Socket.io, JWT, and more. I am passionate about building scalable, high-performance web applications and continuously seek to solve complex problems with innovative solutions. With hands-on experience in both front-end and back-end technologies, I specialize in creating seamless and user-friendly digital experiences. I thrive in collaborative environments, am committed to learning new technologies, and contribute to open-source projects. Outside of development, I enjoy exploring emerging tech, refining my skills, and staying active.`;
 
 export const INTERNSHIP = [
   {
-    year: "Aug-2024 - Sept-2024",
+    year: "Nov-2024 - Feb-2025",
     role: "Full Stack Developer",
-    company: "Null Class",
-    description: ` Developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    company: "ToysPresso Pvt Ltd",
+    description: ` Enhanced the platform with an AI Chatbot powered by OpenAI, enabling natural language interactions and increasing user engagement by 75%.
+     Added Voice Assistance for seamless interaction with the AI Chatbot, significantly improving accessibility and user experience.
+     Utilized NVIDIA Omniverse to convert 2D images into 3D models, enhancing the platform's visual and interactive capabilities by 38%.
+     Developed real-time chat functionality using Socket.io, improving user communication by 47% and enabling seamless interaction between users and sellers.
+     Implemented live page features with MediaSoup, boosting real-time user interactions by 60%, ensuring seamless live streaming for users and sellers.`,
+    technologies: ["JavaScript", "React.js", "OpenAI", "MongoDB", "NVIDIA Omniverse", "Socket.io", "MediaSoup"],
   },
-
 ];
 
 export const PROJECTS = [
-
   {
-    title: "AI-Image-Generator",
+    title: "E-Commerce",
     image: project4,
-    description:
-      "Developed a web application from scratch that generates unique images based on user text input, featuring an intuitive UI, real-time image creation, and scalable architecture.",
-    link:"https://github.com/Shivamup51/Image/tree/my-new-branch",
-    technologies: ["React.js", "Tailwindcss", "Bootstrap","OpenAI"],
+    description: ` Built a serverless e-commerce platform with Upstash Ioredis for authentication, Stripe for seamless payments, and real-time purchasing.
+     Included an admin panel for creating, updating, and managing products, including featured items.
+     Ensured secure transactions, scalable performance, and an enhanced user shopping experience.`,
+    link: "https://github.com/Shivamup51/E-Commerce.git",
+    technologies: ["React.js", "TailwindCSS", "Express.js", "Node.js", "MongoDB", "IoRedis", "Stripe"],
   },
-
   {
-    title: "E-Learning website",
+    title: "Chat-App",
     image: project1,
-    description:
-      "I Spearheaded the creation of a dynamic E-Learning website from scratch leveraging React.js + vite , tailwindCss",
-    link:"https://github.com/Shivamup51/E-Learning",
-    technologies: ["React.js", "Tailwindcss", "javascript"],
+    description: ` Developed a feature-rich chat application with real-time messaging using Socket.IO, enhancing communication by 90%.
+     Integrated read receipts for a 50% improved user experience.
+     Utilized MongoDB for data storage and implemented JWT-based authentication for secure sessions.
+     Designed RESTful APIs with Express.js for user and messaging management.`,
+    link: "https://github.com/Shivamup51/CHAT_APP.git",
+    technologies: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js", "Socket.io"],
   },
   {
-    title: "PhotoShop",
+    title: "Vibe-Nest",
     image: project2,
-    description:
-      "I Spearheaded the creation of a dynamic PhotoShop-website from scratch leveraging Html,Css, Javascript",
-    link:"https://github.com/Shivamup51/PHOTOSHOP-WEBSITE",
-    technologies: ["Html", "Css", "javacript"],
+    description: ` Developed a video streaming platform offering TV shows, movies, and personalized content, increasing user engagement by 60%.
+     Integrated features like search history and favorites management, improving content discovery by 40%.
+     Utilized modern web technologies with robust authentication and authorization, reducing unauthorized access by 57%.`,
+    link: "https://github.com/Shivamup51/Vibe.git",
+    technologies: ["React.js", "TailwindCSS", "MongoDB", "Express", "Node.js", "TMDB API Key"],
   },
   {
-    title: "News-App",
+    title: "Webpage-ScreenShotter",
     image: project3,
-    description:
-      "Stay updated with the latest headlines, breaking news, and top stories from around the world, all in one place.",
-    link:"https://github.com/Shivamup51/News-app",
-    technologies: ["React", "TailwindCss","Javascript","News_API"],
+    description: ` Webpage Screenshotter is a web application that allows users to capture multiple high-resolution screenshots of any website by providing a URL.
+    The tool ensures that UI elements are clear and visible, making it useful for AI vision models, archiving content, or sharing snapshots.`,
+    link: "https://github.com/Shivamup51/Webpage-ScreenShotter.git",
+    technologies: ["React.js", "TailwindCSS", "Express", "Node.js", "Puppeteer", "Local/AWS S3 Storage"],
   },
-
 ];
 
 export const CONTACT = {
-  address: "RKGIT-COLLEGE , GHAZIABAD , U.P , 201003",
-  phoneNo: "+91 7297977115 ",
-  email: "SHivamupadhyay2868@gmail.com",
+  title: "Contact",
+  subtitle: "Feel free to reach out to me for any questions or opportunities!",
+  address: "RKGIT College, Ghaziabad, U.P, 201003",
+  phoneNo: "+91 7297977115",
+  email: "shivamupadhyay2868@gmail.com"
 };
